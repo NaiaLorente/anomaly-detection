@@ -1,7 +1,6 @@
 """Unit tests for the anomaly detection engine — no live stream needed."""
 
 import pytest
-import numpy as np
 from detector.stream import MetricStream
 from detector.engine import AnomalyEngine, WARMUP_TICKS
 
